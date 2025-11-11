@@ -1,3 +1,4 @@
+import Navbar from '@/components/navbar'
 import React from 'react'
 
 const page = () => {
@@ -47,11 +48,7 @@ const page = () => {
     ]
   return (
     <div>
-        <div className="w-[220px] gap-2 pt-10 fixed top-0 bottom-0 flex flex-col px-5 bg-[#edc5ff]">
-            <button className="flex gap-3 bg-[#9556a9] text-[12px] text-white px-10 py-2 rounded-md  shadow-md hover:bg-[#532561] transition">Dashboard</button>
-            <button className="flex gap-3 bg-[#9556a9] text-[12px] text-white px-10 py-2 rounded-md  shadow-md hover:bg-[#532561] transition">Reimbursement</button>
-            <button className="flex gap-3 bg-[#9556a9] text-[12px] text-white px-10 py-2 rounded-md  shadow-md hover:bg-[#532561] transition">Karyawan</button>
-        </div>
+        <Navbar/>
         <div className='flex flex-col gap-2 ml-60 px-5 pt-3 pb-10'>
             <h1 className='pt-5 font-bold text-2xl'>Dashboard Page</h1>
             <div className='flex flex-row gap-5'>
