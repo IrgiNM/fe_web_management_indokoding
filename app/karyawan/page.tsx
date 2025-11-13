@@ -94,7 +94,7 @@ const reqReimburse =[
       <div className='  w-120 flex flex-col  gap-5'> 
         {dataList.map((item, index)=>{
           return(
-            <button key={index} className='flex flex-row shadow-md shadow-purple-700 bg-purple-300 px-3 py-2 w-full rounded-lg gap-2'>
+            <button key={index} className='flex flex-row shadow-md  bg-purple-200 border-purple-800 border-1 border-b-3 px-3 py-2 w-full rounded-lg gap-2'>
             <Image src={require("../../public/assets/image/profile.png")} style={{ width: 40, height: 40 }} tintColor={"#9333EA"}/>
             <div className='w-full flex flex-col items-start '>
               <p className='font-bold '>{item.username}</p>
