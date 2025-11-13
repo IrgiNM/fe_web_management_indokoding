@@ -1,3 +1,5 @@
+import Navbar from '@/components/navbar'
+"use client"
 import React from 'react'
 import { useRouter } from "next/navigation";
 
